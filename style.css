@@ -1,0 +1,60 @@
+
+        #nav>div>img{
+        height: 100px;
+        width: 200px;
+
+        }
+        #nav>div{
+            /* border:2px solid red; */
+            display:flex;
+            justify-content: space-between;
+        }
+        .navp{
+            display:flex;
+        }
+        #circleimg{
+            display: flex;
+        }
+        #circleimg>div{
+                
+        }
+        #circleimg>div>img{
+            height: 70px;
+            width: 70px;
+        }
+        /* #circleimg img {
+            display: inline-block
+        } */
+        #circleimg {
+            border: 2px solid black;
+            height: 100px;
+            display: flex;
+        }
+        #circleimg button{
+            border: none;
+            font-size: 10px;
+        }
+
+        .container{
+            padding-top: 15px;
+            display: flex;
+            justify-content: space-around;
+            border: 1px solid black;
+            text-align: center;
+            /* justify-content: center; */
+            /* text-decoration: none; */
+        }
+
+        .container > a {
+            text-decoration: none;
+        }
+
+        .container > a > img{
+
+            width: 80px;
+            height: 80px;
+        }
+
+
+
+    
