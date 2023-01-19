@@ -1,36 +1,134 @@
+#logo {
+    /* border: 1px solid black; */
+    width: 100px;
+    height: 150px;
+    margin-left:-100px;
+    margin-top:-10px; 
+}
 
-        #nav>div>img{
-        height: 100px;
-        width: 200px;
+#logo > img{
+    width: 180px;
+    height: 200px;
+    margin-top: -20px ;
+}
 
+        #header a{
+            /* border: 2px solid black; */
+            width: 100%;
+            display: inline;
+            justify-content: space-around;
+            text-decoration: none;
+            color: black;
+            width: 35%;
+            font-weight: bold;
         }
+        #header span {
+            color: red;
+        }
+        #header {
+            /* border: 1px solid black; */
+            width: 400px;
+            /* margin-top: 40px; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+            /* border: 2px solid red; */
+            /* width: 50%; */
+            /* margin-left: 50px; */
+        }
+
+        #header:hover{
+            color: chartreuse;
+        }
+      .navp > div > a > img{
+      width:25px;
+      height:25px;
+      display:block;
+      margin:auto;
+      }
+      .navp>div>a{
+        text-decoration:none ;
+        color:black;
+        font-size:10px;
+      }
+      #pro{
+        display:flex;
+        width:100%;
+        
+      }
+
+      #pro a{
+      text-decoration:none;
+      }
+      
+      #banner > p {
+        text-align: center;
+      }
+      
+
         #nav>div{
             /* border:2px solid red; */
             display:flex;
             justify-content: space-between;
         }
+        #parent img{
+            width: 100%;
+            height: 100%;
+            margin: auto;
+
+        }
+        hr {
+            font-weight: bolder;
+            color: blue;
+        }
         .navp{
             display:flex;
+            width: 30%;
+            justify-content: space-around;
+           align-items: center;
         }
-        #circleimg{
+        #circleimg > div > a{
+            /* display: flex; */
+            text-decoration:none;
+            
+        }
+        #banner > img{
+        width: 40px;
+        height: 40px;
+    
+        }
+
+        #banner{
+            /* display: block; */
+            margin-left: 70px;
+            border-top: 4px solid skyblue;
+            margin-top: 40px;
+            width: 90%;
             display: flex;
+            justify-content: center;
+            align-items: center;
+            /* justify-content: space-between/; */
         }
-        #circleimg>div{
-                
-        }
-        #circleimg>div>img{
+      
+        #circleimg>div> a > img{
             height: 70px;
             width: 70px;
         }
-        /* #circleimg img {
-            display: inline-block
-        } */
+       
         #circleimg {
-            border: 2px solid black;
-            height: 100px;
+            /* border: 2px solid black; */
             display: flex;
+            justify-content: space-between;
+            /* border-bottom: 1px solid black; */
+            height: 80px;
+            display: flex;
+            width: 80%;
+            text-align: center;
+            margin: auto;
+            margin-top: 20px;
         }
-        #circleimg button{
+        #circleimg > div > a{
             border: none;
             font-size: 10px;
         }
@@ -39,10 +137,8 @@
             padding-top: 15px;
             display: flex;
             justify-content: space-around;
-            border: 1px solid black;
             text-align: center;
-            /* justify-content: center; */
-            /* text-decoration: none; */
+           
         }
 
         .container > a {
@@ -53,8 +149,29 @@
 
             width: 80px;
             height: 80px;
-        }
+        } 
+
+
+        .nav{
+            display:flex;
+            justify-content: space-evenly;
+        } 
+
+        
+
+
+#pro{
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 95%;
+}
+
+#pro > div > a > img {
+    width: 100%;
+}
 
 
 
-    
