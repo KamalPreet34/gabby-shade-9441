@@ -101,7 +101,7 @@
 
         #banner{
             /* display: block; */
-            margin-left: 70px;
+            margin-left: 120px;
             border-top: 4px solid skyblue;
             margin-top: 40px;
             width: 90%;
@@ -167,6 +167,8 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     width: 95%;
+    padding-left: 140px;
+    padding-right: 40px;
 }
 
 #pro > div > a > img {
@@ -174,4 +176,28 @@
 }
 
 
+#pro>div{
+width: 80%;
+}
 
+
+.indiv{
+display:flex;
+/* border: 1px solid black; */
+/* justify-content: center; */
+align-items: center;
+font-size: 17px;
+}
+
+.indiv > img{
+    width: 15px;
+    height: 15px;
+}
+
+.indiv > p{
+    color: rgb(130, 128, 128);
+}
+
+.indiv > p > span{
+color: #000;
+}
